@@ -6,10 +6,8 @@
 ###   so use this script to turns working path navigation
 ################
 
-PATH={{PATH}}
-
 # Catch python script response
-output=$(${PATH}/goto.py "$@" 2>&1)
+output=$(./_goto.py "$@" 2>&1)
 
 # Validate if has space to identify run path
 if [[ ${output} = *[\ ]* ]]; then
