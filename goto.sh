@@ -7,7 +7,7 @@
 ################
 
 # Catch python script response
-output=$(./_goto.py "$@" 2>&1)
+output=$(/usr/local/bin/_goto.py "$@" 2>&1)
 
 # Validate if has space to identify run path
 if [[ ${output} = *[\ ]* ]]; then
