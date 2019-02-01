@@ -1,4 +1,8 @@
 # GoTo
+
+[![Github: @leakira](https://img.shields.io/badge/contact-@leakira-blue.svg?style=flat)](https://github.com/leakira)
+[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/leakira/goto/blob/master/LICENSE)
+
 Python script to create shortcut for terminal navigation
 
 ## Commands
